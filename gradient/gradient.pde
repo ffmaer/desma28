@@ -18,7 +18,6 @@ void gradient_half_circle(int x, int y, int w, color c1, color c2) {
   arc_mask.endDraw();
   // apply the mask and draw the half circle shape filled with the gradient color
   gradient.mask(arc_mask);
-  //image(arc_mask,0,0);
   image(gradient, 0, 0);
 }
 void setup() {
